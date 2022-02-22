@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(./font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Google Sans;
+  src: url(font/Open_Sans/OpenSans-VariableFont_wdth\wght.ttf);
+}
+
+@font-face {
+  font-family: Volkhov;
+  src: url(font/Volkhov/Volkhov-Regular.ttf);
+}
+.logo {
+  background: #ffffff;
+}
+
+body {
+  margin: 3% 10% 0 10%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 4rem;
+}
+
+.d-flex--menu {
+  margin: 0;
+}
+
+.decore{
+    
+}
