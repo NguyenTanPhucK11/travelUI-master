@@ -223,3 +223,124 @@ body {
 .category__card:hover + .category-rec {
   visibility: visible;
 }
+
+/* destination UI */
+.dest {
+  margin-top: 4rem;
+}
+
+.dest .dest__heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #5e6282;
+}
+
+.dest .dest__tagline {
+  margin-top: 0.6rem;
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.125rem;
+  line-height: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #14183e;
+}
+
+.dest .dest__horizontal {
+  margin-top: 3.75rem;
+}
+
+.dest .dest__card {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  border: 0;
+  margin: 0 1.125rem 0 1.125rem;
+  border-radius: 24px;
+
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+    drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
+    drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481))
+    drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+    drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185))
+    drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+.dest__card--img {
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.card-body--dest {
+  padding: 0 !important;
+}
+
+.dest .dest__name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+
+.dest .dest__total {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+
+.dest .dest__day {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+/* .dest__card:hover {
+  margin: 0 .25rem 0 2rem;
+} */
+.dest__card:hover + .dest__decore {
+  visibility: visible;
+}
+.dest .dest__decore {
+  position: relative;
+  /* top: 10%; */
+  bottom: 40%;
+  right: -85%;
+  visibility: hidden;
+}
+
+.bookTrip {
+}
+
+.bookTrip .bookTrip__heading {
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.125rem;
+  line-height: 4rem;
+  text-transform: capitalize;
+  color: #14183e;
+}
+
+.bookTrip .bookTrip__tagline {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #5e6282;
+}
+
+.bookTrip .bookTrip__steps{
+    padding-right: 1rem;
+}
