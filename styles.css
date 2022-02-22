@@ -1,10 +1,10 @@
 @font-face {
-  font-family: Poppins-Regular;
-  src: url(./font/Poppins/Poppins-Bold.ttf);
+  font-family: Poppins;
+  src: url(./font/Poppins/Poppins-Regular.ttf);
 }
 @font-face {
   font-family: Google Sans;
-  src: url(font/Open_Sans/OpenSans-VariableFont_wdth\wght.ttf);
+  src: url(./font/Open_Sans/OpenSans-VariableFont_wdth\wght.ttf);
 }
 
 @font-face {
@@ -13,6 +13,10 @@
 }
 .logo {
   background: #ffffff;
+}
+
+html {
+  position: relative;
 }
 
 body {
@@ -27,6 +31,132 @@ body {
   margin: 0;
 }
 
-.decore{
-    
+.decore {
+}
+
+.decore .decore__elipse {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -28%;
+  background: #d5aee4;
+  opacity: 0.3;
+  filter: blur(9.5rem);
+  width: 20rem;
+  height: 20rem;
+}
+
+.decore .decore__random {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+}
+
+.desc {
+  margin-top: 9rem;
+}
+
+.desc .desc__tagline {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #df6951;
+}
+
+.desc .desc__heading {
+  margin-top: 1.5rem;
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5.25rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.04em;
+  color: #181e4b;
+}
+
+.desc .desc__text {
+  margin-top: 2rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #5e6282;
+}
+
+.desc__img {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+.cta {
+  margin-top: 2rem;
+}
+
+.btn--cta {
+  width: 10.5rem !important;
+  height: 3.5rem !important;
+  background: #f1a501;
+  box-shadow: 0 1.25rem 2.25rem rgba(241, 165, 1, 0.15);
+  border-radius: 0.625rem;
+  color: #ffffff;
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.btn--cta__play {
+  margin: 0.4rem;
+  color: #ffffff;
+  background: #df6951;
+  box-shadow: 0 1rem 2rem rgba(223, 105, 81, 0.3);
+}
+
+.cta-text {
+  padding: 0.9rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.06rem;
+  line-height: 1.5rem;
+  color: #686d77;
+}
+
+.category {
+  position: relative;
+  margin-top: 16rem;
+}
+
+.decore__plus {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -8%;
+}
+
+.category .category__heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.12rem;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #5e6282;
+}
+
+.category .category__tagline {
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.12rem;
+  line-height: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #14183e;
 }
