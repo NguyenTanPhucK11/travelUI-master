@@ -26,6 +26,7 @@ html {
 
 body {
   margin: 3% 10% 0 10%;
+  font-family: Poppins;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -45,10 +46,26 @@ body {
   bottom: 0;
   left: -28%;
   background: #d5aee4;
-  opacity: 0.3;
+  opacity: 0.8;
   filter: blur(9.5rem);
   width: 20rem;
   height: 20rem;
+}
+
+.decore .decore__ellipse2 {
+  position: absolute;
+  /* bottom: -10rem; */
+  top: 96%;
+  right: -11%;
+  border-radius: 50%/100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background: #d5aee4;
+  opacity: 0.8;
+  filter: blur(150px);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 20rem;
+  height: 10rem;
 }
 
 .decore .decore__random {
@@ -266,7 +283,7 @@ body {
   padding: 0;
   border: 0;
   margin: 0 1.125rem 0 1.125rem;
-  border-radius: 24px;
+  border-radius: 1.5rem;
 
   filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
     drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
@@ -339,7 +356,7 @@ body {
   background: #59b1e6;
   border-radius: 100%;
   opacity: 0.8;
-  filter: blur(8rem);
+  filter: blur(10rem);
 }
 
 .bookTrip .bookTrip__heading {
@@ -422,7 +439,7 @@ body {
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   border: 0px;
   margin: 0px 0.5rem 0px 0.5rem;
-  border-radius: 24px;
+  border-radius: 1.5rem;
   filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
     drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
     drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481))
@@ -494,7 +511,7 @@ body {
 }
 .card-ongoing {
   text-align: left;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 .card-ongoing .card-ongoing__card {
   border: 0px;
@@ -519,7 +536,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 124.5%;
   letter-spacing: -0.035em;
   color: #84829a;
@@ -529,7 +546,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 124.5%;
   letter-spacing: -0.015em;
   color: #080809;
@@ -539,7 +556,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 124.5%;
   letter-spacing: -0.055em;
 }
@@ -577,14 +594,14 @@ body {
   font-family: Volkhov;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
-  line-height: 64px;
+  font-size: 3.125rem;
+  line-height: 4rem;
   text-transform: capitalize;
   color: #14183e;
 }
 
 .carousel-indicators {
-  margin-bottom: -80px !important;
+  margin-bottom: -5rem !important;
   /* float: left !important; */
   right: auto;
   margin-left: auto;
@@ -592,14 +609,14 @@ body {
 
 .carousel-indicators [data-bs-target] {
   /* width: 10px; */
-  width: 12px;
+  width: 0.75rem;
   margin-right: 20px;
-  height: 12px;
+  height: 0.75rem;
   border-radius: 50%;
 }
 
 .testi .testi__slider {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 .testi__slider__active {
@@ -609,11 +626,11 @@ body {
 .testi__card {
   position: relative;
   border: 0px;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .testi__card--hide {
-  border: 2px solid #f7f7f7;
+  border: 0.125rem solid #f7f7f7;
   position: absolute;
   z-index: 0;
   top: 36%;
@@ -641,11 +658,11 @@ body {
   font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 1rem;
+  line-height: 2rem;
   width: 90%;
   color: #5e6282;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 .testi__card__name {
   font-family: Poppins-Regular;
@@ -724,4 +741,264 @@ body {
     0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
     0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
   border-radius: 10px;
+}
+
+/* subscribe */
+
+.sub {
+  margin-top: 9.5rem;
+  margin-bottom: 9.5rem;
+  position: relative;
+}
+
+.decore__plus2 {
+  position: absolute;
+  /* top: 0; */
+  bottom: -18%;
+  right: -9%;
+}
+
+.decore__circle {
+  position: absolute;
+  /* top: 0; */
+  bottom: 0%;
+  left: -8%;
+}
+
+.decore__circle2 {
+  position: absolute;
+  /* top: 0; */
+  bottom: 12%;
+  right: 0%;
+}
+
+.sub-img {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  background: #dfd7f9;
+  border-radius: 1.25rem 8rem 1.25rem 1.25rem;
+  opacity: 0.2;
+  /* width: 1170; */
+  height: 400px;
+}
+.sub-text {
+  text-align: center;
+  margin: 2.5rem 6.25rem 4.625rem 6.25rem;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3.375rem;
+  color: #5e6282;
+}
+.input-group {
+  padding-right: 1.5rem;
+  width: 80%;
+  height: 4.25rem;
+  border-radius: 0.625rem !important;
+}
+.email-icon {
+  padding: 0 0.5rem 0 2rem;
+  border: 0;
+  border-radius: 0.625rem 0rem 0rem 0.625rem !important;
+}
+
+.btn--sub {
+  font-size: 1rem;
+  color: #ffffff;
+  height: 4.25rem;
+  background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+  border-radius: 0.625rem;
+}
+
+.sub-icon {
+  position: absolute;
+  top: -5%;
+  left: 96%;
+}
+.btn--sub-icon {
+  width: 4.375rem;
+  height: 4.375rem;
+  font-size: 2rem;
+  color: #ffffff;
+  border-radius: 100%;
+  background: linear-gradient(201.65deg, #747def 10.27%, #5e3be1 100%);
+}
+
+.card--sub {
+  border: 0;
+}
+
+input {
+  border-width: 0 !important;
+  border-radius: 0rem 0.625rem 0.625rem 0rem !important;
+}
+
+/* footer */
+
+footer {
+  margin-top: 10.4rem;
+  margin-bottom: 5rem;
+}
+
+.company-desc {
+}
+
+.discover {
+  margin-top: 0.5rem;
+}
+
+.btn--fb {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 0.75rem;
+  border-radius: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.btn--instagram {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 0.75rem;
+  border: 0;
+  border-radius: 100%;
+  color: #ffffff;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #b8d2f1 0deg,
+    #f289aa 60deg,
+    #c68bf0 106.09deg,
+    #d164da 153.75deg,
+    #c963e8 221.25deg,
+    #bfc2e8 258.75deg,
+    #ffc999 288.75deg,
+    #d0d8c9 315deg,
+    #bad0f1 334.13deg,
+    #ced8cb 358.97deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn--twitter {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 0.75rem;
+  border-radius: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.discover-our-app {
+  margin: 1.6rem 0 1rem 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 124.5%;
+  letter-spacing: 0.005em;
+  color: #5e6282;
+}
+
+.btn--discover {
+  /* margin-left: 0.5rem; */
+  padding: 0.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 2.25rem;
+  height: 2.25rem;
+  background: black;
+  color: #ffffff;
+  border-radius: 1.125rem;
+}
+.col--discover-icon {
+  /* padding-left: 1rem !important; */
+  /* margin-right: 0.625rem; */
+}
+
+.col--discover-text {
+  padding-right: 0;
+  padding-left: 1rem !important;
+}
+
+.col--discover {
+  padding: 0 0.4rem 0 0 !important;
+}
+
+.row--discover {
+  padding-left: 0.75rem;
+}
+
+.btn--discover--available {
+  font-family: Poppins-Bold;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 0.5rem;
+}
+
+.btn--discover--app {
+  color: #ffffff;
+  font-size: 0.5rem;
+}
+
+.btn--discover--apple-available {
+  color: #ffffff;
+  font-size: 0.3rem;
+  font-family: Poppins-Bold;
+}
+
+.btn--discover--apple-app {
+  font-family: Poppins-Bold;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 0.6rem;
+}
+
+.name {
+  /* margin-bottom: 1.2rem; */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.75rem;
+  line-height: 4.125rem;
+  color: #181e4b;
+}
+
+.tagline {
+  padding-right: 2rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3125rem;
+  line-height: 124.5%;
+  color: #080809;
+}
+
+.detail {
+  margin-bottom: 0.75rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+
+.copyrights {
+  margin-top: 5.5rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 124.5%;
+  color: #5e6282;
 }
