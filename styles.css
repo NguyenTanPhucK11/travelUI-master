@@ -30,12 +30,13 @@ body {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
   color: #212832;
 }
 
 .navbar-nav a {
+  padding: 0.5rem 1.4rem !important;
   border-radius: 5px;
   border: 1px solid transparent;
 }
@@ -83,6 +84,13 @@ body {
   right: 0;
 }
 
+.decore .decore__line {
+  position: absolute;
+  z-index: -1;
+  top: 27%;
+  left: 50%;
+}
+
 .desc {
   margin-top: 9rem;
 }
@@ -97,6 +105,7 @@ body {
 }
 
 .desc .desc__heading {
+  position: relative;
   margin-top: 1.5rem;
   font-family: Volkhov;
   font-style: normal;
@@ -173,6 +182,7 @@ body {
 .category {
   position: relative;
   margin-top: 16rem;
+  margin-bottom: 2rem;
 }
 
 .category .decore__plus {
@@ -268,7 +278,7 @@ body {
 
 /* destination UI */
 .dest {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .dest .dest__heading {
@@ -595,10 +605,11 @@ body {
   position: relative;
   /* padding: 0 .75rem 0 .75rem; */
   margin-top: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .testi .testi__horizontal {
-  margin: 0.5rem 0 7rem 0;
+  margin: 0.5rem 0 3rem 0;
 }
 
 .testi .testi__tagline {
@@ -621,7 +632,7 @@ body {
 }
 
 .carousel-indicators {
-  margin-bottom: -5rem !important;
+  /* margin-bottom: -5rem !important; */
   /* float: left !important; */
   right: auto;
   margin-left: auto;
@@ -640,7 +651,7 @@ body {
 }
 
 .testi__slider__active {
-  color: #39425d;
+  /* color: #39425d; */
 }
 
 .testi__card {
@@ -653,8 +664,8 @@ body {
   border: 0.125rem solid #f7f7f7;
   position: absolute;
   z-index: 0;
-  top: 36%;
-  left: 10%;
+  top: 25%;
+  left: 12%;
 }
 .testi__card--show {
   z-index: 1;
@@ -708,14 +719,19 @@ body {
   border: 0;
 }
 
-.card-body--testi {
-  padding: 2rem 4rem 1.5rem 2rem;
+.card-body--testi-lg {
+  padding: 1.5rem 2rem 7rem 2rem !important;
+}
+
+.card-body--testi-sm {
+  padding: 2rem 1rem 1.5rem 2rem;
 }
 
 .carousel-indicators--testi {
   padding: 0 0.75rem 0 0.75rem;
   position: absolute;
   top: 60%;
+  left: -92%;
 }
 
 .testi-chevron {
@@ -732,6 +748,8 @@ body {
   font-weight: bold;
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
+
+/* logos */
 
 .logos {
   margin: 3.5rem 0 5rem 0;
@@ -937,7 +955,7 @@ footer {
 
 .col--discover-text {
   padding-right: 0;
-  padding-left: 1rem !important;
+  padding-left: .8rem !important;
 }
 
 .col--discover {
