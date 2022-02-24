@@ -30,9 +30,27 @@ body {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 4rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: #212832;
 }
 
+.navbar-nav a {
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.navbar-nav a:hover {
+  border: 1px solid #212832;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.navbar-nav a.active {
+  border: 1px solid #212832;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
 .d-flex--menu {
   margin: 0;
 }
@@ -54,18 +72,8 @@ body {
 
 .decore .decore__ellipse2 {
   position: absolute;
-  /* bottom: -10rem; */
-  top: 96%;
-  right: -11%;
-  border-radius: 50%/100%;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  background: #d5aee4;
-  opacity: 0.8;
-  filter: blur(150px);
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  width: 20rem;
-  height: 10rem;
+  bottom: 0;
+  right: 0;
 }
 
 .decore .decore__random {
@@ -112,7 +120,19 @@ body {
 .desc__img {
   position: absolute;
   right: 5%;
-  top: 4%;
+  top: 3%;
+}
+
+.desc__img__plane1 {
+  position: absolute;
+  top: 7%;
+  left: 17%;
+}
+
+.desc__img__plane2 {
+  position: absolute;
+  top: 13%;
+  right: -2%;
 }
 
 .cta {
