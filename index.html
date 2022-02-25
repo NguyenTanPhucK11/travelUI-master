@@ -26,7 +26,9 @@
         <img src="./img/decore_ellipse2.png" alt="" />
       </div>
 
-      <div class="decore__random"><img src="./img/decore.png" alt="" /></div>
+      <div class="decore__random">
+        <img class="decore__img__random" src="./img/decore.png" alt="" />
+      </div>
     </div>
     <header>
       <div class="logo">
@@ -137,7 +139,11 @@
         </div>
         <div class="col-4">
           <div class="desc__img">
-            <img src="./img/traveller.png" alt="" />
+            <img
+              class="desc__img__traveller"
+              src="./img/traveller.png"
+              alt=""
+            />
             <div class="desc__img__plane1">
               <img src="./img/plane.png" alt="" />
             </div>
@@ -149,13 +155,15 @@
       </div>
     </div>
     <div class="category">
-      <div class="decore__plus">
-        <img src="./img/decore_plus.png" />
+      <div class="decore">
+        <div class="decore__plus">
+          <img src="./img/decore_plus.png" />
+        </div>
       </div>
       <div class="category__heading">CATEGORY</div>
       <div class="category__tagline">We Offer Best Services</div>
       <div class="row category-horizontal">
-        <div class="col-12 col-sm-3 col-md-6 col-lg-3">
+        <div class="col-12 col-sm-3 col-md-6 col-lg-6 col-xl-3">
           <div class="card category__card">
             <img
               src="img/calWeather.png"
@@ -170,7 +178,7 @@
           </div>
           <div class="category-rec"></div>
         </div>
-        <div class="col-12 col-sm-3 col-md-6 col-lg-3">
+        <div class="col-12 col-sm-3 col-md-6 col-lg-6 col-xl-3">
           <div class="card category__card">
             <img
               src="img/bestFlights.png"
@@ -185,7 +193,7 @@
           </div>
           <div class="category-rec"></div>
         </div>
-        <div class="col-12 col-sm-3 col-md-6 col-lg-3">
+        <div class="col-12 col-sm-3 col-md-6 col-lg-6 col-xl-3">
           <div class="card category__card">
             <img
               src="img/localEvents.png"
@@ -201,7 +209,7 @@
           </div>
           <div class="category-rec"></div>
         </div>
-        <div class="col-12 col-sm-3 col-md-6 col-lg-3">
+        <div class="col-12 col-sm-3 col-md-6 col-lg-6 col-xl-3">
           <div class="card category__card">
             <img
               src="img/customization.png"
@@ -227,10 +235,12 @@
             <img src="img/rome.jpg" class="card-img-top dest__card--img" />
             <div class="card-body card-body--dest mx-4 my-4">
               <div class="row my-1">
-                <p class="col dest__name d-flex justify-content-start">
+                <p class="col col-lg-8 dest__name d-flex justify-content-start">
                   Rome, Italty
                 </p>
-                <p class="col dest__total d-flex justify-content-end">$5,42k</p>
+                <p class="col col-lg-4 dest__total d-flex justify-content-end">
+                  $5,42k
+                </p>
               </div>
               <div class="row">
                 <i
@@ -249,10 +259,12 @@
             <img src="img/london.jpg" class="card-img-top dest__card--img" />
             <div class="card-body card-body--dest mx-4 my-4">
               <div class="row my-1">
-                <p class="col dest__name d-flex justify-content-start">
+                <p class="col col-lg-8 dest__name d-flex justify-content-start">
                   London, UK
                 </p>
-                <p class="col dest__total d-flex justify-content-end">$4.2k</p>
+                <p class="col col-lg-4 dest__total d-flex justify-content-end">
+                  $4.2k
+                </p>
               </div>
               <div class="row">
                 <i
@@ -274,10 +286,12 @@
             />
             <div class="card-body card-body--dest mx-4 my-4">
               <div class="row my-1">
-                <p class="col dest__name d-flex justify-content-start">
+                <p class="col col-lg-8 dest__name d-flex justify-content-start">
                   Full Europe
                 </p>
-                <p class="col dest__total d-flex justify-content-end">$15k</p>
+                <p class="col col-lg-4 dest__total d-flex justify-content-end">
+                  $15k
+                </p>
               </div>
               <div class="row">
                 <i
@@ -295,7 +309,7 @@
     </div>
     <div class="bookTrip">
       <div class="row bookTrip_horizontal">
-        <div class="col-7 bookTrip__steps">
+        <div class="col-7 col-lg-7 bookTrip__steps">
           <div class="bookTrip__tagline d-flex justify-content-start">
             Easy and Fast
           </div>
@@ -374,9 +388,10 @@
             </div>
           </div>
         </div>
-        <div class="col-4 my-auto">
-          <div class="decore-bookTrip"></div>
-
+        <div class="col-4 col-lg-5 my-auto">
+          <div class="decore">
+            <div class="decore-bookTrip"></div>
+          </div>
           <div class="card bookTrip__card">
             <img
               src="img/bookTrip.jpg"
@@ -402,8 +417,10 @@
               <div class="row justify-content-between">
                 <div class="col-10">
                   <div class="row bookTrip__card__quantity">
-                    <i class="col-1 bi bi-building col-quantity"></i>
-                    <p class="col-10 mx-2 col-quantity">24 people going</p>
+                    <i class="col-1 col-lg-1 bi bi-building col-quantity"></i>
+                    <p class="col-10 col-lg-8 mx-2 col-quantity">
+                      24 people going
+                    </p>
                   </div>
                 </div>
 
@@ -629,11 +646,13 @@
     <div class="sub">
       <div class="card card--sub">
         <div class="card-img sub-img"></div>
-        <div class="decore__circle">
-          <img src="./img/decore_circle.png" />
-        </div>
-        <div class="decore__circle2">
-          <img src="./img/decore_circle2.png" />
+        <div class="decore">
+          <div class="decore__circle">
+            <img src="./img/decore_circle.png" />
+          </div>
+          <div class="decore__circle2">
+            <img src="./img/decore_circle2.png" />
+          </div>
         </div>
         <div class="card-img-overlay">
           <p class="sub-text">
@@ -665,8 +684,10 @@
           </button>
         </div>
       </div>
-      <div class="decore__plus2">
-        <img src="./img/decore_plus2.png" />
+      <div class="decore">
+        <div class="decore__plus2">
+          <img src="./img/decore_plus2.png" />
+        </div>
       </div>
     </div>
     <footer>
