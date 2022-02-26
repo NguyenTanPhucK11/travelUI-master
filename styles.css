@@ -1121,7 +1121,7 @@ footer {
     right: 0;
   }
   .decore__img__random {
-    width: 75%;
+    width: 50%;
   }
   .decore .decore__line {
     z-index: -1;
@@ -1152,8 +1152,8 @@ footer {
   }
 
   .desc__img {
-    right: 1%;
-    top: 1%;
+    right: 5%;
+    top: 2%;
   }
 
   .desc__img__traveller {
@@ -1163,6 +1163,7 @@ footer {
   .desc__img__plane1 {
     top: -1%;
     left: 47%;
+    visibility: hidden;
   }
 
   .desc__img__plane2 {
@@ -1331,10 +1332,10 @@ footer {
   }
 
   .bookTrip .bookTrip__steps {
-    padding-right: 2rem;
+    padding-right: 1rem;
   }
   .card-body--values {
-    padding: 1rem 0 1rem 2rem;
+    padding: 1rem 0 1rem 2.5rem;
   }
   .card-values {
     text-align: left;
@@ -1407,8 +1408,8 @@ footer {
     letter-spacing: -0.02em;
   }
 
-  .col--quantity{
-    padding : 0;
+  .col--quantity {
+    padding: 0;
   }
 
   .bookTrip__card__icon-heart {
@@ -1600,8 +1601,8 @@ footer {
   }
 
   .btn--sub {
-    font-size: .8rem;
-    height:3rem;
+    font-size: 0.8rem;
+    height: 3rem;
   }
 
   .sub-icon {
@@ -1707,7 +1708,7 @@ footer {
 
   .detail {
     margin-bottom: 0.75rem;
-    font-size: .85rem;
+    font-size: 0.85rem;
     line-height: 124.5%;
   }
 
@@ -1799,11 +1800,13 @@ footer {
   .desc__img__plane1 {
     top: 2%;
     left: 40%;
+    visibility: visible;
   }
 
   .desc__img__plane2 {
     top: 4%;
     left: 79%;
+    visibility: visible;
   }
 
   .cta {
