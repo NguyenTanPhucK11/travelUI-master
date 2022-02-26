@@ -1046,7 +1046,7 @@ footer {
 }
 
 .title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0rem;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -1275,7 +1275,7 @@ footer {
   .dest .dest__card {
     padding: 0;
     border: 0;
-    margin: 0 1.125rem 0 1.125rem;
+    margin: 1.125rem 1.125rem 0 1.125rem;
   }
   .dest__card--img {
     border-radius: 1.5rem 1.5rem 0 0;
@@ -1301,14 +1301,13 @@ footer {
   }
 
   .dest .dest__decore {
-    bottom: 40%;
-    right: -85%;
+    display: none;
   }
   /* book Trip */
 
   .bookTrip {
     margin-bottom: 2.5rem;
-    top: -8.25rem;
+    top: 3.5rem;
   }
 
   .decore-bookTrip {
@@ -1332,10 +1331,10 @@ footer {
   }
 
   .bookTrip .bookTrip__steps {
-    padding-right: 7rem;
+    padding-right: 2rem;
   }
   .card-body--values {
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 0 1rem 2rem;
   }
   .card-values {
     text-align: left;
@@ -1365,7 +1364,7 @@ footer {
     line-height: 124.5%;
   }
   .bookTrip .bookTrip__card {
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1rem;
     border: 0rem;
     margin: 0rem 0.5rem 0rem 0.5rem;
     border-radius: 1.5rem;
@@ -1393,25 +1392,30 @@ footer {
     margin-bottom: 1.25rem;
   }
   .btn--option {
-    font-size: 0.7rem;
+    padding: 0.1rem;
+    font-size: 0.75rem;
     margin-right: 0.5rem;
     width: 1.5rem;
     height: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border: 0;
   }
 
   .bookTrip__card__quantity {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 124.5%;
     letter-spacing: -0.02em;
+  }
+
+  .col--quantity{
+    padding : 0;
   }
 
   .bookTrip__card__icon-heart {
   }
   .ongoing {
     width: 80%;
-    top: 47%;
+    top: 30%;
     left: 50%;
   }
   .card-ongoing {
@@ -1450,7 +1454,7 @@ footer {
   /* testimonial */
 
   .testi {
-    margin-top: -3rem;
+    margin-top: 6rem;
     margin-bottom: 3rem;
   }
 
@@ -1465,8 +1469,8 @@ footer {
   }
 
   .testi .testi__heading {
-    font-size: 3.125rem;
-    line-height: 4rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
   }
 
   .carousel-indicators {
@@ -1484,7 +1488,7 @@ footer {
     margin-top: 5rem;
   }
   .testi__card--hide {
-    top: 27%;
+    top: 29%;
     left: 16%;
   }
 
@@ -1515,7 +1519,7 @@ footer {
   }
 
   .card-body--testi-sm {
-    padding: 2rem 1rem 1.5rem 2rem;
+    padding: 2.75rem 1rem 1.5rem 2rem;
   }
 
   .carousel-indicators--testi {
@@ -1561,62 +1565,66 @@ footer {
 
   .decore__circle {
     bottom: 0%;
-    left: -8%;
+    left: -10%;
   }
 
   .decore__circle2 {
-    bottom: 12%;
+    bottom: 13%;
     right: 0%;
   }
 
   .decore__circle img {
+    width: 60%;
   }
 
   .decore__circle2 img {
+    width: 60%;
   }
 
   .sub-img {
-    height: 20rem;
+    height: 15rem;
   }
   .sub-text {
-    margin: 2.5rem 6.25rem 2.625rem 6.25rem;
+    margin: 1.5rem 5.25rem 2rem 5.25rem;
     font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 3.375rem;
+    font-size: 1rem;
+    line-height: 2.375rem;
   }
   .input-group {
     padding-right: 1.5rem;
     width: 80%;
-    height: 4.25rem;
+    height: 3rem;
   }
   .email-icon {
     padding: 0 0.5rem 0 2rem;
   }
 
   .btn--sub {
-    font-size: 1rem;
-    height: 4.25rem;
+    font-size: .8rem;
+    height:3rem;
   }
 
   .sub-icon {
-    top: -5%;
+    top: -9%;
     left: 96%;
   }
   .btn--sub-icon {
-    width: 4.375rem;
-    height: 4.375rem;
-    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.3rem;
   }
 
   /* footer */
 
   footer {
-    margin-top: 10.4rem;
+    margin-top: 6rem;
     margin-bottom: 5rem;
   }
 
   .discover {
     margin-top: 0.5rem;
+    justify-content: center;
+    align-self: center;
   }
 
   .btn--fb {
@@ -1681,25 +1689,25 @@ footer {
   }
 
   .name {
-    font-size: 2.75rem;
-    line-height: 4.125rem;
+    font-size: 1.75rem;
+    line-height: 3.125rem;
   }
 
   .tagline {
     padding-right: 2rem;
-    font-size: 0.8125rem;
+    font-size: 0.75rem;
     line-height: 124.5%;
   }
 
   .title {
-    margin-bottom: 1.5rem;
-    font-size: 1.3125rem;
+    margin-bottom: 0rem;
+    font-size: 1rem;
     line-height: 124.5%;
   }
 
   .detail {
     margin-bottom: 0.75rem;
-    font-size: 1.125rem;
+    font-size: .85rem;
     line-height: 124.5%;
   }
 
@@ -1931,6 +1939,7 @@ footer {
   .dest .dest__decore {
     bottom: 40%;
     right: -85%;
+    display: block;
   }
   /* book Trip */
 
@@ -2322,8 +2331,8 @@ footer {
   }
 
   .title {
-    margin-bottom: 1.5rem;
-    font-size: 1.3125rem;
+    margin-bottom: 0rem;
+    font-size: 1.25rem;
     line-height: 124.5%;
   }
 
@@ -2946,7 +2955,7 @@ footer {
   }
 
   .title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0rem;
     font-size: 1.3125rem;
     line-height: 124.5%;
   }
