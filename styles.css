@@ -695,7 +695,7 @@ body {
     0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
     0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
 }
-.testi__card__img {
+.testi__card__img img {
   width: 3rem;
   height: 3rem;
   position: absolute;
@@ -1079,6 +1079,665 @@ footer {
 @media (min-width: 576px) {
   body {
     background: lightblue;
+    margin: 3% 10% 0 10%;
+  }
+
+  .logo {
+    background: #ffffff;
+  }
+
+  .logo img {
+    /* width: 60%; */
+    width: 3.75rem;
+  }
+  .container-fluid--logo-img {
+    padding: 0;
+  }
+  .navbar-toggler-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .navbar-nav a {
+    padding: 0.5rem 0rem !important;
+    font-size: 0.5rem;
+  }
+
+  .navbar-nav a:hover {
+    border: none;
+  }
+
+  .navbar-nav a.active {
+    border: none;
+  }
+
+  .decore .decore__elipse {
+    top: 0;
+    bottom: 0;
+    left: -28%;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .decore .decore__ellipse2 {
+    bottom: 0;
+    right: 0;
+  }
+
+  .decore .decore__random {
+    z-index: 0;
+    top: 0;
+    right: 0;
+  }
+  .decore__img__random {
+    width: 50%;
+  }
+  .decore .decore__line {
+    z-index: -1;
+    top: 27%;
+    left: 50%;
+  }
+
+  .decore .decore__line img {
+    width: 100%;
+  }
+
+  .desc {
+    margin-top: 1rem;
+  }
+
+  .desc .desc__tagline {
+    font-size: 0.65rem;
+    line-height: 0.5rem;
+  }
+
+  .desc .desc__heading {
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.04em;
+  }
+
+  .desc .desc__text {
+    margin-top: 0.5rem;
+    font-size: 0.5rem;
+    line-height: 1rem;
+  }
+
+  .desc__img {
+    right: 11%;
+    top: 2%;
+  }
+
+  .desc__img__traveller {
+    width: 50%;
+    margin-right: 0;
+  }
+  .desc__img__plane1 {
+    top: -1%;
+    left: 47%;
+    visibility: hidden;
+  }
+
+  .desc__img__plane2 {
+    top: 4%;
+    left: 79%;
+    visibility: hidden;
+  }
+
+  .cta {
+    margin-top: 0.8rem;
+  }
+
+  .btn--cta {
+    width: 4.5rem !important;
+    height: 1.75rem !important;
+    font-size: 0.5rem;
+    padding: 0;
+  }
+  .btn--cta__play {
+    margin: 0.1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.22rem;
+  }
+
+  .cta-text {
+    padding: 0.1rem;
+    font-size: 0.5rem;
+    line-height: 1.5rem;
+  }
+
+  .category {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .category .decore__plus {
+    top: 0;
+    bottom: 0;
+    right: -8%;
+  }
+  .decore__plus img {
+    width: 50%;
+  }
+  .category .category__heading {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .category .category__tagline {
+    padding: 0.5rem 1.5rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .category-horizontal {
+    margin-top: 2rem;
+  }
+  .category .category__card {
+    z-index: 1;
+    border: 0;
+    margin: 0 1.125rem 0 1.125rem;
+    border-radius: 2rem;
+  }
+
+  .category__card--img {
+    margin: 1.5rem 0 0rem 0 !important;
+    width: 20%;
+    height: 2.5rem;
+  }
+
+  .category .category__name {
+    font-weight: 600;
+    font-size: 0.85rem;
+    line-height: 1rem;
+  }
+
+  .category .category__text {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .category-rec {
+    bottom: 19%;
+    left: -5%;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 1.875rem 0 0.625rem;
+  }
+
+  /* destination UI */
+  .dest {
+    margin-top: -3rem;
+  }
+
+  .dest .dest__heading {
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+  }
+
+  .dest .dest__tagline {
+    margin-top: 0.6rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .dest .dest__horizontal {
+    margin-top: 1.75rem;
+  }
+
+  .dest .dest__card {
+    padding: 0;
+    border: 0;
+    margin: 1.125rem 1.125rem 0 1.125rem;
+  }
+  .dest__card--img {
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+
+  .card-body--dest {
+    padding: 0 !important;
+  }
+
+  .dest .dest__name {
+    font-size: 0.75rem;
+    line-height: 124.5%;
+  }
+
+  .dest .dest__total {
+    font-size: 0.75rem;
+    line-height: 124.5%;
+  }
+
+  .dest .dest__day {
+    font-size: 0.6rem;
+    line-height: 124.5%;
+  }
+
+  .dest .dest__decore {
+    display: none;
+  }
+  /* book Trip */
+
+  .bookTrip {
+    margin-bottom: 2.5rem;
+    top: 2.5rem;
+  }
+
+  .decore-bookTrip {
+    top: 0%;
+    right: 5%;
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .bookTrip .bookTrip__heading {
+    margin: 1rem 0 1.5rem 0;
+    padding-right: 0rem;
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+
+  .bookTrip .bookTrip__tagline {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+  }
+
+  .bookTrip .bookTrip__steps {
+    padding-right: 1rem;
+  }
+  .card-body--values {
+    padding: 1rem 0 0 1rem;
+  }
+  .card-values {
+    text-align: left;
+    margin: 0.5rem 0 0rem 0;
+  }
+  .card-values .card-values__card {
+    border: 0rem;
+  }
+  .card-values .card-values__icon {
+    border-radius: 0.5rem;
+    top: 20%;
+  }
+
+  .btn--values {
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .card-values .card-values__title {
+    font-size: 0.75rem;
+    line-height: 124.5%;
+  }
+
+  .card-values .card-values__text {
+    font-size: 0.75rem;
+    line-height: 124.5%;
+  }
+  .bookTrip .bookTrip__card {
+    padding: 0.75rem;
+    border: 0rem;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .card-body--bookTrip {
+    padding: 0.75rem 0 0 0;
+  }
+
+  .bookTrip__card--img {
+    border-radius: 1.5rem;
+  }
+
+  .bookTrip__card .bookTrip__card__title {
+    font-size: 0.75rem;
+    line-height: 124.5%;
+    letter-spacing: 0.015em;
+    margin-bottom: 0.5rem;
+  }
+
+  .bookTrip__card .bookTrip__card__subtitle {
+    font-size: 0.6rem;
+    line-height: 124.5%;
+    letter-spacing: -0.005em;
+    margin-bottom: 0.75rem;
+  }
+  .btn--option {
+    padding: 0.1rem;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border: 0;
+  }
+
+  .bookTrip__card__quantity {
+    font-size: 0.5rem;
+    line-height: 124.5%;
+    letter-spacing: -0.02em;
+  }
+
+  .col--quantity {
+    padding: 0;
+  }
+
+  .bookTrip__card__icon-heart {
+    font-size: 0.75rem;
+  }
+  .ongoing {
+    width: 80%;
+    top: 30%;
+    left: 50%;
+    display: none;
+  }
+  .card-ongoing {
+    margin-bottom: 0.25rem;
+  }
+
+  .card-ongoing .card-ongoing__img {
+    margin-left: 1.25rem;
+    top: 15%;
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+
+  .card-ongoing .card-ongoing__title {
+    font-size: 0.75rem;
+    line-height: 124.5%;
+    letter-spacing: -0.035em;
+  }
+
+  .card-ongoing .card-ongoing__text {
+    font-size: 1rem;
+    line-height: 124.5%;
+    letter-spacing: -0.015em;
+  }
+
+  .card-ongoing .card-ongoing__percent {
+    font-size: 0.875rem;
+    line-height: 124.5%;
+    letter-spacing: -0.055em;
+  }
+
+  .progress {
+    height: 5px;
+  }
+
+  /* testimonial */
+
+  .testi {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  .testi .testi__horizontal {
+    margin: 0.5rem 0 3rem 0;
+  }
+
+  .testi .testi__tagline {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+  }
+
+  .testi .testi__heading {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+
+  .carousel-indicators {
+    right: auto;
+    margin-left: auto;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    width: 0.75rem;
+    margin-right: 20px;
+    height: 0.75rem;
+  }
+
+  .testi .testi__slider {
+    margin-top: 5rem;
+  }
+  .testi__card--hide {
+    top: 25%;
+    left: 21%;
+  }
+
+  .testi__card__img img {
+    width: 2rem;
+    height: 2rem;
+    top: -6%;
+    left: -7%;
+  }
+  .testi__card__text {
+    font-size: 0.6rem;
+    line-height: 1rem;
+    width: 90%;
+    margin-bottom: 0.25rem;
+  }
+  .testi__card__name {
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 2rem;
+  }
+  .testi__card__info {
+    font-size: 0.65rem;
+    line-height: 0.875rem;
+  }
+
+  .card-body--testi-lg {
+    padding: 1.5rem 0.75rem 7rem 2rem !important;
+  }
+
+  .card-body--testi-sm {
+    padding: 0.75rem 0.75rem 0.75rem 1rem;
+  }
+
+  .carousel-indicators--testi {
+    padding: 0 0.75rem 0 0.75rem;
+    top: 60%;
+    left: -100%;
+  }
+
+  .testi-chevron {
+    padding: 1.5rem 0 1.5rem 0;
+  }
+
+  /* logos */
+
+  .logos {
+    margin: 3.5rem 0 5rem 0;
+  }
+
+  .card--logos {
+    padding: 0.25rem;
+  }
+
+  .logos-card-img {
+    width: 5rem;
+    height: 2rem;
+  }
+
+  /* subscribe */
+
+  .sub {
+    margin-top: 5rem;
+    margin-bottom: 4.5rem;
+  }
+
+  .decore__plus2 {
+    bottom: -14%;
+    right: -9%;
+  }
+
+  .decore__plus2 img {
+    width: 45%;
+  }
+
+  .decore__circle {
+    bottom: 0%;
+    left: -10%;
+  }
+
+  .decore__circle2 {
+    bottom: 34%;
+    right: 0%;
+  }
+
+  .decore__circle img {
+    width: 45%;
+  }
+
+  .decore__circle2 img {
+    width: 45%;
+  }
+
+  .sub-img {
+    height: 15rem;
+  }
+  .sub-text {
+    margin: 1.25rem 4rem 1.25rem 4rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2.375rem;
+  }
+  .input-group {
+    padding-right: 1rem;
+    width: 80%;
+    height: 2rem;
+  }
+  .email-icon {
+    padding: 0 0.5rem 0 2rem;
+  }
+
+  .btn--sub {
+    font-size: 0.5rem;
+    height: 2rem;
+  }
+
+  .sub-icon {
+    top: -7%;
+    left: 96%;
+  }
+  .btn--sub-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: 0.75rem;
+  }
+
+  /* footer */
+
+  footer {
+    margin-top: 0rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .discover {
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .btn--fb {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.75rem;
+  }
+  .btn--instagram {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.75rem;
+  }
+
+  .btn--twitter {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.75rem;
+  }
+
+  .discover-our-app {
+    margin: 1.6rem 0 1rem 0;
+    font-size: 1.25rem;
+    line-height: 124.5%;
+    letter-spacing: 0.005em;
+  }
+
+  .btn--discover {
+    padding: 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .col--discover-text {
+    padding-right: 0;
+    padding-left: 0.8rem !important;
+  }
+
+  .col--discover {
+    padding: 0.25rem 0.4rem 0 0 !important;
+  }
+
+  .row--discover {
+    padding-left: 0.75rem;
+  }
+
+  .btn--discover--available {
+    font-size: 0.5rem;
+  }
+
+  .btn--discover--app {
+    font-size: 0.5rem;
+  }
+
+  .btn--discover--apple-available {
+    font-size: 0.3rem;
+  }
+
+  .btn--discover--apple-app {
+    font-size: 0.6rem;
+  }
+
+  .name {
+    font-size: 1.75rem;
+    line-height: 3.125rem;
+  }
+
+  .tagline {
+    padding-right: 2rem;
+    font-size: 0.75rem;
+    line-height: 124.5%;
+  }
+
+  .title {
+    margin-bottom: 0rem;
+    font-size: 0.8rem;
+    line-height: 124.5%;
+  }
+
+  .detail {
+    margin-bottom: 0.75rem;
+    font-size: 0.75rem;
+    line-height: 124.5%;
+  }
+
+  .copyrights {
+    margin-top: 2.5rem;
+    font-size: 0.875rem;
+    line-height: 124.5%;
   }
 }
 
@@ -1413,11 +2072,13 @@ footer {
   }
 
   .bookTrip__card__icon-heart {
+    font-size: 1rem;
   }
   .ongoing {
     width: 80%;
     top: 30%;
     left: 50%;
+    display: block;
   }
   .card-ongoing {
     margin-bottom: 0.25rem;
@@ -1493,7 +2154,7 @@ footer {
     left: 16%;
   }
 
-  .testi__card__img {
+  .testi__card__img img {
     width: 3rem;
     height: 3rem;
     top: -9%;
@@ -2048,11 +2709,13 @@ footer {
   }
 
   .bookTrip__card__icon-heart {
+    font-size: 1rem;
   }
   .ongoing {
     width: 80%;
     top: 47%;
     left: 50%;
+    display: block;
   }
   .card-ongoing {
     margin-bottom: 0.25rem;
@@ -2128,7 +2791,7 @@ footer {
     left: 16%;
   }
 
-  .testi__card__img {
+  .testi__card__img img {
     width: 3rem;
     height: 3rem;
     top: -9%;
@@ -2370,6 +3033,19 @@ footer {
   .navbar-nav a {
     padding: 0.5rem 1.4rem !important;
     font-size: 0.83rem;
+  }
+
+  .navbar-nav a {
+    font-size: 0.83rem;
+    padding: 0.5rem 1.4rem !important;
+    border-radius: 5px;
+    border: 1px solid transparent;
+  }
+
+  .navbar-nav a:hover {
+    border: 1px solid #212832;
+    box-sizing: border-box;
+    border-radius: 5px;
   }
 
   .decore .decore__elipse {
@@ -2672,11 +3348,13 @@ footer {
   }
 
   .bookTrip__card__icon-heart {
+    font-size: 1rem;
   }
   .ongoing {
     width: 80%;
     top: 49%;
     left: 60%;
+    display: block;
   }
   .card-ongoing {
     margin-bottom: 0.25rem;
@@ -2752,7 +3430,7 @@ footer {
     left: 12%;
   }
 
-  .testi__card__img {
+  .testi__card__img img {
     width: 3rem;
     height: 3rem;
     top: -9%;
