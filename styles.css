@@ -22,11 +22,13 @@
 
 html {
   position: relative;
+
 }
 
 body {
   margin: 3% 10% 0 10%;
   font-family: Poppins;
+
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -1076,7 +1078,7 @@ footer {
 }
 @media (min-width: 320px) and (max-width: 479px) {
   body {
-    background: lightseagreen;
+    /* background: lightseagreen; */
     margin: 3% 10% 0 10%;
   }
 
@@ -1225,11 +1227,11 @@ footer {
     right: -8%;
   }
   .decore__plus img {
-    width: 50%;
+    width: 30%;
   }
   .category .category__heading {
     font-weight: 600;
-    font-size: .8rem;
+    font-size: 0.8rem;
     line-height: 1.5rem;
   }
 
@@ -1279,7 +1281,7 @@ footer {
   }
 
   .dest .dest__heading {
-    font-size: .8rem;
+    font-size: 0.8rem;
     line-height: 1rem;
   }
 
@@ -1347,7 +1349,7 @@ footer {
 
   .bookTrip .bookTrip__tagline {
     font-weight: 600;
-    font-size: .8rem;
+    font-size: 0.8rem;
     line-height: 1rem;
   }
 
@@ -1493,7 +1495,7 @@ footer {
 
   .testi .testi__tagline {
     font-weight: 600;
-    font-size: .8rem;
+    font-size: 0.8rem;
     line-height: 1rem;
   }
 
@@ -1548,7 +1550,7 @@ footer {
   }
 
   .card-body--testi-sm {
-    padding: 0.75rem 0.75rem 1.5rem .5rem;
+    padding: 0.75rem 0.75rem 1.5rem 0.5rem;
   }
 
   .carousel-indicators--testi {
@@ -1616,7 +1618,7 @@ footer {
   .sub-text {
     margin: 0.5rem 2.25rem;
     font-weight: 600;
-    font-size: .75rem;
+    font-size: 0.75rem;
     line-height: 1.125rem;
   }
   .input-group {
@@ -1625,7 +1627,7 @@ footer {
     height: 1.5rem;
   }
   .email-icon {
-    padding: 0 0.5rem 0 .5rem;
+    padding: 0 0.5rem 0 0.5rem;
     font-size: 0.75rem;
   }
   .form-control--sub {
@@ -1679,7 +1681,7 @@ footer {
 
   .discover-our-app {
     margin: 1rem 0 1rem 0;
-    font-size: .75rem;
+    font-size: 0.75rem;
     line-height: 124.5%;
     letter-spacing: 0.005em;
   }
@@ -1752,7 +1754,7 @@ footer {
 }
 @media (min-width: 480px) {
   body {
-    background: lightsalmon;
+    /* background: lightsalmon; */
     margin: 3% 10% 0 10%;
   }
 
@@ -2427,7 +2429,7 @@ footer {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   body {
-    background: lightblue;
+    /* background: lightblue; */
     margin: 3% 10% 0 10%;
   }
 
@@ -3102,7 +3104,7 @@ footer {
     background: #ffffff;
   }
   body {
-    background: lightgreen;
+    /* background: lightgreen; */
     margin: 3% 10% 0 10%;
   }
 
@@ -3743,7 +3745,7 @@ footer {
     background: #ffffff;
   }
   body {
-    background: lightcoral;
+    /* background: lightcoral; */
     margin: 3% 10% 0 10%;
   }
 
@@ -4714,7 +4716,7 @@ footer {
   .ongoing {
     width: 80%;
     top: 49%;
-    left: 60%;
+    left: 51%;
     display: block;
   }
   .card-ongoing {
@@ -5012,5 +5014,12 @@ footer {
     margin-top: 5.5rem;
     font-size: 0.875rem;
     line-height: 124.5%;
+  }
+}
+
+@media (min-width: 1880px) {
+  html {
+    width: 1880px;
+    margin: auto;
   }
 }
