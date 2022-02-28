@@ -22,13 +22,11 @@
 
 html {
   position: relative;
-
 }
 
 body {
   margin: 3% 10% 0 10%;
   font-family: Poppins;
-
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -1735,6 +1733,8 @@ footer {
   }
 
   .title {
+    padding: .5rem 0;
+
     margin-bottom: 0rem;
     font-size: 0.5rem;
     line-height: 124.5%;
@@ -2408,6 +2408,7 @@ footer {
   }
 
   .title {
+    padding: 1rem 0;
     margin-bottom: 0rem;
     font-size: 0.8rem;
     line-height: 124.5%;
@@ -3080,6 +3081,7 @@ footer {
   }
 
   .title {
+    padding: 1rem 0rem;
     margin-bottom: 0rem;
     font-size: 0.8rem;
     line-height: 124.5%;
@@ -3721,6 +3723,7 @@ footer {
   }
 
   .title {
+    padding: 0.75rem 0rem;
     margin-bottom: 0rem;
     font-size: 1rem;
     line-height: 124.5%;
@@ -4358,6 +4361,8 @@ footer {
   }
 
   .title {
+    padding: 1.25rem 0rem;
+
     margin-bottom: 0rem;
     font-size: 1.25rem;
     line-height: 124.5%;
@@ -4999,6 +5004,8 @@ footer {
   }
 
   .title {
+    padding: 1.25rem 0rem;
+
     margin-bottom: 0rem;
     font-size: 1.3125rem;
     line-height: 124.5%;
